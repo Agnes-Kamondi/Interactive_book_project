@@ -1,0 +1,72 @@
+body{
+    background-color: #ca7150;
+    color: white;
+}
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+h2{
+    font-size: 30px;
+}
+#content{
+    margin-left: 9%;
+    display: flex;
+    gap: 10%;
+}
+button{
+    width: 170px;
+    margin-left: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(60,61,78);
+}
+#navbar{
+    display: flex;
+    gap: 35%;
+    align-items: center;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    margin-left: 7%;
+}
+#list{
+    display:flex;
+    justify-content: space-between;
+}
+#li{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+#list2{
+    width: 90%;
+    display: flex;
+    gap: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: 15px;
+}
+img{
+    width: 800px;
+    height: 770px;
+}
+.scroll{
+    cursor:pointer;
+}
+#nums{
+    display: flex;
+}
